@@ -5794,3 +5794,45 @@ Will handle read message: {'jsonrpc': '2.0', 'id': 176, 'result': [{'name': 'Tes
 lsp: 2021-06-10 17:23:22 UTC pid: 10977 - ThreadPoolExecutor-0_0 - DEBUG - robocorp_ls_core.jsonrpc.streams
 Writing: {'jsonrpc': '2.0', 'id': 126, 'result': [{'name': 'Test Cases', 'kind': 3, 'range': {'start': {'line': 0, 'character': 0}, 'end': {'line': 0, 'character': 18}}, 'selectionRange': {'start': {'line': 0, 'character': 0}, 'end': {'line': 0, 'character': 18}}, 'children': [{'name': 'Testcase1', 'kind': 5, 'range': {'start': {'line': 1, 'character': 0}, 'end': {'line': 1, 'character': 9}}, 'selectionRange': {'start': {'line': 1, 'character': 0}, 'end': {'line': 1, 'character': 9}}}, {'name': 'Testcase2', 'kind': 5, 'range': {'start': {'line': 4, 'character': 0}, 'end': {'line': 4, 'character': 9}}, 'selectionRange': {'start': {'line': 4, 'character': 0}, 'end': {'line': 4, 'character': 9}}}]}]}
 
+lsp: 2021-06-10 20:38:03 UTC pid: 10977 - MainThread - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///Source/Snooz82/katacoda-scenarios/RobotFrameworkTest/test.robot"}}}
+
+lsp: 2021-06-10 20:38:03 UTC pid: 10977 - MainThread - DEBUG - robocorp_ls_core.jsonrpc.endpoint
+Handling notification from client {'jsonrpc': '2.0', 'method': 'textDocument/didClose', 'params': {'textDocument': {'uri': 'file:///Source/Snooz82/katacoda-scenarios/RobotFrameworkTest/test.robot'}}}
+
+lsp: 2021-06-10 20:38:03 UTC pid: 10977 - MainThread - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'jsonrpc': '2.0', 'id': 74, 'method': 'textDocument/didClose', 'params': {'textDocument': {'uri': 'file:///Source/Snooz82/katacoda-scenarios/RobotFrameworkTest/test.robot'}}}
+
+lsp: 2021-06-10 20:38:03 UTC pid: 10977 - MainThread - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'jsonrpc': '2.0', 'id': 127, 'method': 'textDocument/didClose', 'params': {'textDocument': {'uri': 'file:///Source/Snooz82/katacoda-scenarios/RobotFrameworkTest/test.robot'}}}
+
+lsp: 2021-06-10 20:38:03 UTC pid: 10977 - MainThread - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'jsonrpc': '2.0', 'id': 177, 'method': 'textDocument/didClose', 'params': {'textDocument': {'uri': 'file:///Source/Snooz82/katacoda-scenarios/RobotFrameworkTest/test.robot'}}}
+
+lsp: 2021-06-10 20:38:03 UTC pid: 10977 - MainThread - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"jsonrpc":"2.0","method":"$/setTrace","params":{"value":"off"}}
+
+lsp: 2021-06-10 20:38:03 UTC pid: 10977 - MainThread - DEBUG - robocorp_ls_core.jsonrpc.endpoint
+Handling notification from client {'jsonrpc': '2.0', 'method': '$/setTrace', 'params': {'value': 'off'}}
+
+lsp: 2021-06-10 20:38:03 UTC pid: 10977 - MainThread - INFO - robocorp_ls_core.jsonrpc.endpoint
+Ignoring notification for unknown method $/setTrace
+
+lsp: 2021-06-10 20:38:03 UTC pid: 10977 - Thread-11 - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"jsonrpc": "2.0", "id": 74, "result": null}
+
+lsp: 2021-06-10 20:38:03 UTC pid: 10977 - Thread-11 - DEBUG - robocorp_ls_core.client_base
+Will handle read message: {'jsonrpc': '2.0', 'id': 74, 'result': None}
+
+lsp: 2021-06-10 20:38:03 UTC pid: 10977 - Thread-5 - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"jsonrpc": "2.0", "id": 127, "result": null}
+
+lsp: 2021-06-10 20:38:03 UTC pid: 10977 - Thread-5 - DEBUG - robocorp_ls_core.client_base
+Will handle read message: {'jsonrpc': '2.0', 'id': 127, 'result': None}
+
+lsp: 2021-06-10 20:38:03 UTC pid: 10977 - Thread-8 - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"jsonrpc": "2.0", "id": 177, "result": null}
+
+lsp: 2021-06-10 20:38:03 UTC pid: 10977 - Thread-8 - DEBUG - robocorp_ls_core.client_base
+Will handle read message: {'jsonrpc': '2.0', 'id': 177, 'result': None}
+

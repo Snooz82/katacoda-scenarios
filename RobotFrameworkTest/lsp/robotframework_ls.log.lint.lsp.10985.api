@@ -2272,3 +2272,15 @@ Collected analysis errors (in thread): 0
 lsp: 2021-06-10 17:23:12 UTC pid: 10985 - ThreadPoolExecutor-1_0 - DEBUG - robocorp_ls_core.jsonrpc.streams
 Writing: {'jsonrpc': '2.0', 'id': 126, 'result': []}
 
+lsp: 2021-06-10 20:38:03 UTC pid: 10985 - MainThread - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"id": 127, "jsonrpc": "2.0", "method": "textDocument/didClose", "params": {"textDocument": {"uri": "file:///Source/Snooz82/katacoda-scenarios/RobotFrameworkTest/test.robot"}}}
+
+lsp: 2021-06-10 20:38:03 UTC pid: 10985 - MainThread - DEBUG - robocorp_ls_core.jsonrpc.endpoint
+Handling request from client {'id': 127, 'jsonrpc': '2.0', 'method': 'textDocument/didClose', 'params': {'textDocument': {'uri': 'file:///Source/Snooz82/katacoda-scenarios/RobotFrameworkTest/test.robot'}}}
+
+lsp: 2021-06-10 20:38:03 UTC pid: 10985 - MainThread - DEBUG - robocorp_ls_core.jsonrpc.endpoint
+Got result from synchronous request handler (in 0.01s): None
+
+lsp: 2021-06-10 20:38:03 UTC pid: 10985 - MainThread - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'jsonrpc': '2.0', 'id': 127, 'result': None}
+
