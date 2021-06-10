@@ -6,7 +6,7 @@
   "details": {
     "assets": {
         "host01": [
-            {"file": "Env/requirements.txt", "target": "/usr/local/bin/"},
+            {"file": "Env/requirements.txt", "target": "/usr/local/bin/"}
         ]
     },
     "steps": [
