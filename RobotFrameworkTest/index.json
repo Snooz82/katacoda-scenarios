@@ -11,14 +11,13 @@
     },
     "steps": [
       {
-        "title": "About Cookbook",
+        "title": "Install and use Robot Framework",
         "text": "step1.md"
       }
     ],
     "intro": {
         "text": "intro.md",
-        "courseData": "console.sh",
-        "code": "script.sh"
+        "courseData": "console.sh"
     },
     "finish": {
       "text": "finish.md"
