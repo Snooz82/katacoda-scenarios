@@ -4,6 +4,12 @@
   "difficulty": "Beginner",
   "time": "5",
   "details": {
+    "assets": {
+        "host01": [
+            {"file": "Env/requirements.txt", "target": "/usr/local/bin/"},
+            {"file": "Env/robocorp.robotframework-lsp-0.18.0.vsix", "target": "/usr/local/bin/"}
+        ]
+    },
     "steps": [
       {
         "title": "Step 1",
@@ -18,7 +24,7 @@
     }
   },
   "environment": {
-    "uilayout": "vscode-terminal-split"
+    "uilayout": "vscode"
   },
   "backend": {
     "imageid": "python:3.6"
