@@ -11,7 +11,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+        "text": "intro.md",
+        "courseData": "console.sh"
     },
     "finish": {
       "text": "finish.md"
