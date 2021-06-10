@@ -1,0 +1,307 @@
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - MainThread - DEBUG - robocorp_ls_core.remote_fs_observer__main__
+Arguments: ['--log-file=lsp/robotframework_ls.log', '-vv']
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - MainThread - DEBUG - robocorp_ls_core.remote_fs_observer__main__
+Python: 3.9.0 (default, Feb 28 2021, 18:15:32) 
+[Clang 10.0.1 (clang-1001.0.46.4)] - lsp: <unable to get __version__> (<module 'robocorp_ls_core' from '/Users/rener/.vscode/extensions/robocorp.robotframework-lsp-0.18.0/src/robotframework_ls/vendored/robocorp_ls_core/__init__.py'>) - platform: darwin - sys.prefix: /Users/rener/.pyenv/versions/3.9.0 - sys.executable: /Users/rener/.pyenv/versions/3.9.0/bin/python
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"backend": "fsnotify", "command": "initialize", "extensions": [".py", ".libspec", "robot", ".resource"], "parent_pid": 10977}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_initialize'}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".resource", ".robot"], "on_change_id": 0, "paths": [{"path": "/Source/Snooz82/katacoda-scenarios/RobotFrameworkTest", "recursive": true}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 0}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "initialize_connect"}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_initialize'}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 0, "paths": [{"path": "/Users/rener/.vscode/extensions/robocorp.robotframework-lsp-0.18.0/src/robotframework_ls/server_api", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 0}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 1, "paths": [{"path": "/Users/rener/.pyenv/versions/3.9.0/lib/python3.9", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 1}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 2, "paths": [{"path": "/Users/rener/.pyenv/versions/3.9.0/lib/python3.9/lib-dynload", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 2}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 3, "paths": [{"path": "/Users/rener/.pyenv/versions/3.9.0/lib/python3.9/site-packages", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 3}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 4, "paths": [{"path": "/Source/Snooz82/robotframework-crypto/src", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 4}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 5, "paths": [{"path": "/Source/git-imbus/web-itorx-json-generator/src", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 5}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 6, "paths": [{"path": "/Source/Snooz82/robotframework-datadriver/src", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 6}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 7, "paths": [{"path": "/Source/imbus/robotframework-libdoc2testbench/src", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 7}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 8, "paths": [{"path": "/Source/MarketSquare/robotframework-stacktrace/src", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 8}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 9, "paths": [{"path": "/Users/rener/.vscode/extensions/robocorp.robotframework-lsp-0.18.0/src", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 9}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 10, "paths": [{"path": "/Users/rener/.vscode/extensions/robocorp.robotframework-lsp-0.18.0/src/robotframework_ls/vendored", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 10}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 11, "paths": [{"path": "/Users/rener/.robotframework-ls/specs/v2/75b0c45a_4.0.3/user", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 11}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 12, "paths": [{"path": "/Users/rener/.robotframework-ls/specs/v2/75b0c45a_4.0.3/builtins", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 12}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".resource", ".robot"], "on_change_id": 13, "paths": [{"path": "/Source/Snooz82/katacoda-scenarios/RobotFrameworkTest", "recursive": true}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 13}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 14, "paths": [{"path": "/Source/Snooz82/katacoda-scenarios/RobotFrameworkTest", "recursive": true}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 14}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "initialize_connect"}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_initialize'}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 0, "paths": [{"path": "/Users/rener/.vscode/extensions/robocorp.robotframework-lsp-0.18.0/src/robotframework_ls/server_api", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 0}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 1, "paths": [{"path": "/Users/rener/.pyenv/versions/3.9.0/lib/python3.9", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 1}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 2, "paths": [{"path": "/Users/rener/.pyenv/versions/3.9.0/lib/python3.9/lib-dynload", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 2}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 3, "paths": [{"path": "/Users/rener/.pyenv/versions/3.9.0/lib/python3.9/site-packages", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 3}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 4, "paths": [{"path": "/Source/Snooz82/robotframework-crypto/src", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 4}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 5, "paths": [{"path": "/Source/git-imbus/web-itorx-json-generator/src", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 5}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 6, "paths": [{"path": "/Source/Snooz82/robotframework-datadriver/src", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 6}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 7, "paths": [{"path": "/Source/imbus/robotframework-libdoc2testbench/src", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 7}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 8, "paths": [{"path": "/Source/MarketSquare/robotframework-stacktrace/src", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 8}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 9, "paths": [{"path": "/Users/rener/.vscode/extensions/robocorp.robotframework-lsp-0.18.0/src", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 9}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 10, "paths": [{"path": "/Users/rener/.vscode/extensions/robocorp.robotframework-lsp-0.18.0/src/robotframework_ls/vendored", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 10}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 11, "paths": [{"path": "/Users/rener/.robotframework-ls/specs/v2/75b0c45a_4.0.3/user", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 11}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 12, "paths": [{"path": "/Users/rener/.robotframework-ls/specs/v2/75b0c45a_4.0.3/builtins", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 12}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".resource", ".robot"], "on_change_id": 13, "paths": [{"path": "/Source/Snooz82/katacoda-scenarios/RobotFrameworkTest", "recursive": true}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 13}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 14, "paths": [{"path": "/Source/Snooz82/katacoda-scenarios/RobotFrameworkTest", "recursive": true}]}
+
+remote_fs_observer: 2021-06-10 17:22:45 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 14}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "initialize_connect"}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_initialize'}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 0, "paths": [{"path": "/Users/rener/.vscode/extensions/robocorp.robotframework-lsp-0.18.0/src/robotframework_ls/server_api", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 0}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 1, "paths": [{"path": "/Users/rener/.pyenv/versions/3.9.0/lib/python3.9", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 1}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 2, "paths": [{"path": "/Users/rener/.pyenv/versions/3.9.0/lib/python3.9/lib-dynload", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 2}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 3, "paths": [{"path": "/Users/rener/.pyenv/versions/3.9.0/lib/python3.9/site-packages", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 3}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 4, "paths": [{"path": "/Source/Snooz82/robotframework-crypto/src", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 4}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 5, "paths": [{"path": "/Source/git-imbus/web-itorx-json-generator/src", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 5}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 6, "paths": [{"path": "/Source/Snooz82/robotframework-datadriver/src", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 6}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 7, "paths": [{"path": "/Source/imbus/robotframework-libdoc2testbench/src", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 7}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 8, "paths": [{"path": "/Source/MarketSquare/robotframework-stacktrace/src", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 8}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 9, "paths": [{"path": "/Users/rener/.vscode/extensions/robocorp.robotframework-lsp-0.18.0/src", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 9}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 10, "paths": [{"path": "/Users/rener/.vscode/extensions/robocorp.robotframework-lsp-0.18.0/src/robotframework_ls/vendored", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 10}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 11, "paths": [{"path": "/Users/rener/.robotframework-ls/specs/v2/75b0c45a_4.0.3/user", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 11}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 12, "paths": [{"path": "/Users/rener/.robotframework-ls/specs/v2/75b0c45a_4.0.3/builtins", "recursive": false}]}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 12}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".resource", ".robot"], "on_change_id": 13, "paths": [{"path": "/Source/Snooz82/katacoda-scenarios/RobotFrameworkTest", "recursive": true}]}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 13}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"command": "notify_on_any_change", "extensions": [".py", ".libspec"], "on_change_id": 14, "paths": [{"path": "/Source/Snooz82/katacoda-scenarios/RobotFrameworkTest", "recursive": true}]}
+
+remote_fs_observer: 2021-06-10 17:22:46 UTC pid: 10982 - _RemoteFSServer - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'command': 'ack_notify_on_any_change', 'on_change_id': 14}
+
