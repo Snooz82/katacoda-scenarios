@@ -5,4 +5,4 @@ pip install robotframework
 pip install robotframework-stacktrace
 pip install robotframework-crypto
 pip install robotframework-pabot
-git clone https://github.com/adiralashiva8/robotframework-examples.git .
+git clone https://github.com/adiralashiva8/robotframework-examples.git
