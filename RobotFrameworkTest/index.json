@@ -4,11 +4,6 @@
   "difficulty": "Beginner",
   "time": "5",
   "details": {
-    "assets": {
-        "host01": [
-            {"file": "requirements.txt", "target": "/usr/local/bin/"}
-        ]
-    },
     "steps": [
       {
         "title": "Step 1",
