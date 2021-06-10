@@ -15,7 +15,7 @@ Lets see the next Test. There is also a failing one.
 (Click) `robotframework-training/TestCases/01_RobotBasics/01_SimpleTestSuite.robot`{{open}}
 
 Run it:
-(Click) `robot -d /root/logs robotframework-training/TestCases/01_RobotBasics/00_FirstTest.robot`{{execute}}
+(Click) `robot -d /root/logs robotframework-training/TestCases/01_RobotBasics/01_SimpleTestSuite.robot`{{execute}}
 
 
 ## Watch the logs:
