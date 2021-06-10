@@ -5,3 +5,4 @@ pip install robotframework-stacktrace
 pip install robotframework-crypto
 pip install robotframework-pabot
 unzip intelli.zip -d /opt/.katacodacode/extensions/snooz82.rf-intellisense-2.9.6
+git clone https://github.com/adiralashiva8/robotframework-examples.git .
