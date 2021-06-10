@@ -6,3 +6,4 @@ pip install robotframework-stacktrace
 pip install robotframework-crypto
 pip install robotframework-pabot
 git clone https://github.com/adiralashiva8/robotframework-examples.git
+rm intelli.zip
