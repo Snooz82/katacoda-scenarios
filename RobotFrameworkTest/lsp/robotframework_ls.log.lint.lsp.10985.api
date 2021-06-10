@@ -2284,3 +2284,27 @@ Got result from synchronous request handler (in 0.01s): None
 lsp: 2021-06-10 20:38:03 UTC pid: 10985 - MainThread - DEBUG - robocorp_ls_core.jsonrpc.streams
 Writing: {'jsonrpc': '2.0', 'id': 127, 'result': None}
 
+lsp: 2021-06-10 23:07:18 UTC pid: 10985 - MainThread - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: {"id": 128, "jsonrpc": "2.0", "method": "shutdown"}
+
+lsp: 2021-06-10 23:07:18 UTC pid: 10985 - MainThread - DEBUG - robocorp_ls_core.jsonrpc.endpoint
+Handling request from client {'id': 128, 'jsonrpc': '2.0', 'method': 'shutdown'}
+
+lsp: 2021-06-10 23:07:18 UTC pid: 10985 - Thread-1 - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: None
+
+lsp: 2021-06-10 23:07:18 UTC pid: 10985 - MainThread - DEBUG - robocorp_ls_core.jsonrpc.endpoint
+Got result from synchronous request handler (in 0.01s): None
+
+lsp: 2021-06-10 23:07:18 UTC pid: 10985 - Thread-1 - DEBUG - robocorp_ls_core.jsonrpc.streams
+Exited JsonRpcStreamReader.
+
+lsp: 2021-06-10 23:07:18 UTC pid: 10985 - MainThread - DEBUG - robocorp_ls_core.jsonrpc.streams
+Writing: {'jsonrpc': '2.0', 'id': 128, 'result': None}
+
+lsp: 2021-06-10 23:07:18 UTC pid: 10985 - MainThread - DEBUG - robocorp_ls_core.jsonrpc.streams
+Read: None
+
+lsp: 2021-06-10 23:07:18 UTC pid: 10985 - MainThread - DEBUG - robocorp_ls_core.jsonrpc.streams
+Exited JsonRpcStreamReader.
+
