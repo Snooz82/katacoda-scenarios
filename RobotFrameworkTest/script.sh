@@ -4,3 +4,4 @@ pip install robotframework-datadriver
 pip install robotframework-crypto
 pip install robotframework-pabot
 pip install xmlschema
+python /root/logs/server.py &
