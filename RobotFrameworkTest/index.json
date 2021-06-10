@@ -18,7 +18,7 @@
     }
   },
   "environment": {
-    "uilayout": "vscode"
+    "uilayout": "vscode-terminal-split"
   },
   "backend": {
     "imageid": "python:3.6"
