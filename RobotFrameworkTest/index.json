@@ -1,6 +1,6 @@
 {
-  "title": "Test",
-  "description": "A Test",
+  "title": "Robot Framework Test",
+  "description": "Robot Framework Environment",
   "difficulty": "Beginner",
   "time": "5",
   "details": {
