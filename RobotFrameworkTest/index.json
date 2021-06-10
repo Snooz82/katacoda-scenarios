@@ -6,13 +6,14 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "About Cookbook",
         "text": "step1.md"
       }
     ],
     "intro": {
         "text": "intro.md",
-        "courseData": "console.sh"
+        "courseData": "console.sh",
+        "code": "script.sh"
     },
     "finish": {
       "text": "finish.md"
