@@ -3,11 +3,11 @@ Have Fun!
 Run Everything
 ` robot -d /root/logs robotframework-training/TestCases`{{execute}}
 
-Run Robot like
+Run Robot like `robotframework-training/TestCases/01_RobotBasics/00_FirstTest.robot`{{open}}
 ` robot -d /root/logs robotframework-training/TestCases/01_RobotBasics/00_FirstTest.robot`{{execute}}
 
 Use the RobotStackTracer
-`robot -d /root/logs --listener RobotStackTracer robotframework-training/TestCases/01_RobotBasics/00_FirstTest.robot`{{execute}}
+`robot -d /root/logs --listener RobotStackTracer robotframework-training/TestCases/01_RobotBasics`{{execute}}
 
 Install DebugLibrary
 `pip install robotframework-debuglibrary`{{execute}}
