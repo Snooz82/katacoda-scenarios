@@ -7,7 +7,7 @@
     "steps": [],
     "intro": {
         "text": "intro.md",
-        "courseData": "console.sh"
+        "courseData": "script.sh"
     },
     "finish": {
       "text": "finish.md"
